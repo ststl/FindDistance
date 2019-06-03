@@ -1,0 +1,84 @@
+div{
+    background-color:#404040;
+    position: absolute;
+    top:5%;
+    width: 100%;
+    height: 90%;
+    opacity: 0.993;
+}
+.popular{
+    position: absolute;
+    top:15%;
+    left: 25%;
+    width: 20%;
+    height: 20%;
+ 
+}
+.cities{
+    position: absolute;
+    top:78%;
+    left: 64%;
+    width: 66%;
+    height: 2%;
+
+}
+.distance{
+    position: absolute;
+    top:15%;
+    left: 38%;
+    width: 20%;
+    height: 20%;
+ 
+}
+.v{
+    border-left: 2px solid white;
+    height: 30px;
+    width: 8px;
+    position: absolute;
+    left: 57%;
+    margin-left: -3px;
+    top: 22%;
+}
+.vl {
+    border-left: 2px solid white;
+    height: 70px;
+    width: 8px;
+    position: absolute;
+    left: 51%;
+    margin-left: -3px;
+    top: 22%;
+  }
+button{
+    background-color: #FFC000;
+    position: absolute;
+    left:2%;
+    top:2%;
+    width: 8%;
+    color: white;
+
+}
+p{
+    position: absolute;
+    left:56%;
+    top:30%; 
+    width: 85%;
+    color: white;
+    font-size: 20px;
+}
+
+label{
+    position: absolute;
+    left:87%;
+    top:50%; 
+    color: #FFC000;
+    font-size:35px;
+}
+.city2{
+    left:26%;
+    font-size: 15px;
+}
+.city1{
+    left:62%;
+    font-size:15px;
+
+}

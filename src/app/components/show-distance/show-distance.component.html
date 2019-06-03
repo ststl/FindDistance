@@ -1,0 +1,20 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div >
+  <button (click)="close()">סיום</button>
+  <div class="distance">
+  <p>המרחק בק"מ</p>
+  <label>{{distance}}</label>
+</div>
+<div class="vl"></div>
+<div class="popular">
+  <p> המרחק הפופולארי ביותר</p>
+  <label>{{PopularSearch.distance}}</label>
+
+<div class="cities">
+  <label  class="label city1">{{PopularSearch.NameSourceCity}}</label>
+  <div class="v"></div>
+  <label class="label city2">{{PopularSearch.NameDestinationCity}}</label>
+</div>
+<hr width="50%">
+<app-list-of-popular-searches ></app-list-of-popular-searches>
+</div>

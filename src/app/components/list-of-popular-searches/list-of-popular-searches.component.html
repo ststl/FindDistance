@@ -1,0 +1,20 @@
+<div>
+<p>
+רשימת התוצאות הפופולאריות
+</p>
+<ul>
+  <li *ngFor='let search of listPopularSearch|slice:0:10;'>
+    <b>{{search.NameSourceCity}}</b>  
+    &nbsp;	    &nbsp;	    &nbsp;	   
+    <b >{{search.NameDestinationCity}} </b> 	
+    &nbsp;	    &nbsp;	    &nbsp;	
+    <b>{{search.NumOfSearches}} </b>  
+    <br>
+    <b  class="b undertxt">מקור</b>
+    &nbsp;	    &nbsp;	   &nbsp;	    &nbsp;	    &nbsp;	
+    <b class="b undertxt" >  יעד </b>	
+    &nbsp;	&nbsp;	&nbsp;	   &nbsp;	    &nbsp;	 
+    <b class="b undertxt" >  בקשות </b>
+ </li>
+</ul>
+</div>

@@ -1,0 +1,13 @@
+<div>
+<p> מקור</p>
+<ng-select 
+(change)='GetDistancesource($event)' [items]="listCities" bindValue="id"  bindLabel="NameCity"   >
+</ng-select>
+</div>
+<div class="div target">
+<p> יעד</p>
+<ng-select 
+(change)='GetDistancedestination($event)' [items]="listCities" aria-placeholder="vfbx ao" bindValue="id"    bindLabel="NameCity"   >
+</ng-select>  </div>
+<button (click)="GetDistance()"> הצג את המרחק</button>
+<router-outlet></router-outlet>
